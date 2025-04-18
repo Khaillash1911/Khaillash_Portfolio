@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medical Centre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="css/magnific-popup.css" rel="stylesheet">
+
+  <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
+  <link rel="stylesheet" href="templatemo-first-portfolio-style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: var(--section-bg-color);
+      color: var(--dark-color);
+      margin: 0;
+      padding: 0;
+      font-family: var(--body-font-family);
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .back-btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 1000;
+      font-size: 20px;
+      background: var(--white-color);
+      border-radius: var(--border-radius-large);
+      padding: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      color: black;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .slideshow {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto 40px auto;
+      border-radius: var(--border-radius-medium);
+      overflow: hidden;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    }
+
+    .slideshow img {
+      width: 100%;
+      display: none;
+      transition: opacity 0.8s ease;
+    }
+
+    .slideshow img.active {
+      display: block;
+    }
+
+    .slideshow-control {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(255, 255, 255, 0.7);
+      color: var(--dark-color);
+      border: none;
+      font-size: 30px;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 10;
+      border-radius: 50%;
+      transition: background-color 0.3s;
+    }
+
+    .slideshow-control:hover {
+      background-color: var(--secondary-color);
+      color: var(--white-color);
+    }
+
+    .slideshow-control.prev {
+      left: 10px;
+    }
+
+    .slideshow-control.next {
+      right: 10px;
+    }
+
+    p {
+      line-height: 1.8;
+      margin-bottom: 24px;
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    .video-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    video {
+      width: 100%;
+      max-width: 900px;
+      border-radius: var(--border-radius-medium);
+      box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+    }
+
+    .align-left {
+    text-align: left;
+    }
+
+    .align-left hard-left p {
+      color: #FF6B6B;
+    }
+
+    .hard-left {
+    margin-left: 0;
+    padding-left: 0;
+    width: fit-content;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      .container {
+        padding: 40px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Back Button -->
+<!-- Back Button -->
+<a href="landingpage.html" class="back-btn" style="color: white; background-color: #535da1; font-weight: bold; text-decoration: none;">
+    ← Back
+  </a>
+
+  <div class="container">
+    <!-- Title -->
+    <h1>Medical Centre</h1>
+
+  <div class="align-left hard-left">
+      <h3>Project Type</h3>
+      <p style="color: #FF6B6B;">Java Programming</p>
+    
+      <h3>Date</h3>
+      <p style="color: #FF6B6B;">July 2024</p>
+    
+      <h3>Github</h3>
+      <p style="color: #FF6B6B;"><code><a href="https://github.com/Khaillash1911/MedicalCenterSystem-Java" target="_blank" style="color: inherit;">Get full code here!</a></code></p>        
+    
+      <h3>Languages</h3>
+      <p style="color: #FF6B6B;">Java</p>
+  </div>
+  
+
+  
+      
+
+    <!-- Image Slideshow with Controls -->
+    <div class="slideshow">
+      <img src="images/med1.jpg" class="active"  />
+      <img src="images/med2.jpg" />
+      <img src="images/med3.jpg" />
+      <img src="images/med4.jpg" />
+      <img src="images/med5.jpg" />
+      <img src="images/med6.jpg" />
+      <img src="images/med7.jpg" />
+
+      <!-- Controls -->
+      <button class="slideshow-control prev">&#10094;</button>
+      <button class="slideshow-control next">&#10095;</button>
+    </div>
+
+    <!-- Paragraphs -->
+    <p>
+      Welcome to my project, a fully functional medical center management system built using Java. This web application is designed to provide an efficient and user-friendly platform where patients, doctors, and admins can seamlessly collaborate. Patients can easily book appointments, view medical histories, and access their health records. Doctors can manage their schedules, update patient records, and communicate with patients. Admins can oversee the entire system, manage users, and ensure smooth operations across the center. The system is tailored to improve the quality of healthcare services while ensuring a smooth and efficient workflow.
+    </p>    
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-12">
+          <div class="copyright-text-wrap d-flex justify-content-center">
+            <p class="mb-0 text-center">
+              <span class="copyright-text">
+                Copyright © 2025 <a href="#">Khaillash Sashitharan</a> Company. All rights reserved.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>    
+</div>
+
+
+
+  <script>
+    const slides = document.querySelectorAll('.slideshow img');
+    const prevBtn = document.querySelector('.slideshow-control.prev');
+    const nextBtn = document.querySelector('.slideshow-control.next');
+    let current = 0;
+    let slideInterval = setInterval(nextSlide, 3000);
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+    }
+
+    function nextSlide() {
+      current = (current + 1) % slides.length;
+      showSlide(current);
+    }
+
+    function prevSlide() {
+      current = (current - 1 + slides.length) % slides.length;
+      showSlide(current);
+    }
+
+    nextBtn.addEventListener('click', () => {
+      nextSlide();
+      resetInterval();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      prevSlide();
+      resetInterval();
+    });
+
+    function resetInterval() {
+      clearInterval(slideInterval);
+      slideInterval = setInterval(nextSlide, 7000);
+    }
+  </script>
+
+</body>
+</html>
